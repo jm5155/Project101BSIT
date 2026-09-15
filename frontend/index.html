@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+
+      <button onclick="login()">Login</button>
+
+      <p>Don't have an account?</p>
+
+      <input type="text" id="name" placeholder="Name" />
+      <button onclick="register()">Register</button>
+
+      <p id="message"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

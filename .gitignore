@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local build output
+npm-debug.log*
+dist/
+build/
+.DS_Store
